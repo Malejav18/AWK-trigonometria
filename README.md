@@ -21,14 +21,14 @@ Además para la mejor visualización de los datos, se requiere de **GNUPlot**.
 
 ### Proceso de instalación de GNUPlot: 
 
-**Linux**
+### Linux
 ```
 sudo apt install gnuplot
 ```
 
 
 
-**macOs**
+### macOs
 Instalar homebrew
 
 ```
