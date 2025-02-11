@@ -27,6 +27,7 @@ sudo apt install gnuplot
 ```
 
 
+
 **macOs**
 Instalar homebrew
 
