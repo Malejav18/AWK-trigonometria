@@ -9,7 +9,7 @@ Integrantes:
 
 Se realiza un codigo en lenguaje awk con el propósito de gráficar las funciones trigonométricas de seno, coseno y tangente, sin la facilidad de utilizar librerias dinámicas. Se evalua la capacidad para crear soluciones y la manera correcta del uso de awk para casos específicos.
 
-Como solución se implementa un código en awk, en el cuál podemos definir el valor mínimo y máximo de x, y además el usuario selecciona de cuanto quiere que sea el paso entre el rango seleccionado.
+Como solución se implementa un código en awk, en el cuál podemos definir el valor mínimo y máximo de x, y además el usuario selecciona el valor del paso entre el rango seleccionado.
 
 # Como usarlo
 
