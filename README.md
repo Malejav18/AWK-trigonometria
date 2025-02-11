@@ -102,7 +102,7 @@ plot "tabla.txt" using 1:4
 ```
 
 Comandos adicionales para preferencia de graficación:
-- Uniendo los puntos con lineas
+- Unir los puntos con lineas
 ```
 plot "name.txt" using 1:2 with lines
 ```
