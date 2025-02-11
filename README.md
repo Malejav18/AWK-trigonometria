@@ -26,6 +26,7 @@ Además para la mejor visualización de los datos, se requiere de **GNUPlot**.
 sudo apt install gnuplot
 ```
 
+
 **macOs**
 Instalar homebrew
 
