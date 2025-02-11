@@ -66,10 +66,12 @@ gnuplot
 ```
 
 Ingresar a la posición donde esta el arhivo txt
+- Verificar ubicación actual
 ```
-# Verificar ubicación actual
 pwd
-# Entrar a la carpeta
+```
+- Entrar a la carpeta
+```
 cd 'Name'
 ```
 
@@ -84,12 +86,19 @@ plot "tabla.txt"
 ```
 
 Debido a que tenemos más de una columna (seno, coseno, tangente), debemos seleccionar la grafica deseada:
+
+- Seno
 ```
-# Seno
 plot "tabla.txt" using 1:2
-# Coseno
+```
+
+- Coseno
+```
 plot "tabla.txt" using 1:3
-# Tangente
+```
+
+- Tangente
+```
 plot "tabla.txt" using 1:4
 ```
 
