@@ -30,13 +30,11 @@ sudo apt install gnuplot
 
 ### macOs
 Instalar homebrew
-
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Instalar gnuplot
-
 ```
 brew install gnuplot
 ```
@@ -49,21 +47,20 @@ brew install gnuplot
 
 1. Entrar directamente a la terminal y ubicar la carpeta en donde se encuentra el archivo awk
 2. Para correr un archivo en awk se utiliza el comando:
-   
-    ```sh
-    awk -f nombre_archivo.awk argumentos
-    ```
-    
-   En este caso el comando utilizado es:
-   
-   ```
-   awk -f trigonometria.awk -- limiteInferior limiteSuperior paso
-   ```
+
+```
+awk -f nombre_archivo.awk argumentos
+```
+
+En este caso el comando utilizado es:
+```
+awk -f trigonometria.awk -- limiteInferior limiteSuperior paso
+```
 
 ### Creación de gráfica por medio de GNUPlot
 
 Abrir GNUPlot
- ```
+```
 gnuplot
 ```
 
@@ -82,7 +79,7 @@ Ya que la primera columna de nuestra tabla de datos son los nombres de las varia
 set key autotitle columnhead
 ```
 
-Graficar los datos del archivo txt (en este caso llamado "tabla.txt")
+Gráficar los datos del archivo txt (en este caso llamado "tabla.txt")
 ```
 plot "tabla.txt"
 ```
@@ -105,29 +102,44 @@ plot "tabla.txt" using 1:4
 ```
 
 Comandos adicionales para preferencia de graficación:
+- Uniendo los puntos con lineas
 ```
-# Uniendo los puntos con lineas
+plot "name.txt" using 1:2 with lines
+```
 
-# Gréaficar más de una columna
+- Gráficar más de una columna
+```
 plot "name.txt" using 1:2, "name.txt" using 1:3, ...
+```
 
-# Nombre del eje x
+- Nombre del eje x
+```
 set xlabel "Name"
+```
 
-# Nombre del eje y
+- Nombre del eje y
+```
 set ylabel "Name"
+```
 
-# Nombre de la gráfica
+- Nombre de la gráfica
+```
 set title "Name"
+```
 
-# Volver a gráficar
+- Volver a gráficar
+```
 replot
+```
 
-# Guardar como imagen png
+- Guardar como imagen png
+```
 set terminal png
 set output "name.png"
 replot
+```
 
-# Descartar configuración png
+- Descartar configuración png
+```
 unset output
 ```
