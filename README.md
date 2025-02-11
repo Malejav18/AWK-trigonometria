@@ -15,9 +15,13 @@ Como solución se implementa un código en awk, en el cuál podemos definir el v
 
 1. Entrar directamente a la terminal y ubicar la carpeta en donde se encuentra el archivo awk
 2. Para correr un archivo en awk se utiliza el comando:
+    ```sh
     awk -f nombre_archivo.awk argumentos
+    ```
    En este caso el comando utilizado es:
+   ```
    awk -f trigonometria.awk -- limiteInferior limiteSuperior paso
+   ```
 
 # Requerimientos necesarios
 
