@@ -1,4 +1,4 @@
-# 🌀 AWK-trigonometria
+# 🌀 Gráficas trigonometétricas con AWK
 
 Integrantes:
 
