@@ -143,3 +143,8 @@ replot
 ```
 unset output
 ```
+
+![tangente](https://github.com/user-attachments/assets/fe354ec9-3366-4d55-ba1f-0c95df170c3f)
+![seno](https://github.com/user-attachments/assets/a241b61b-0a4d-4aec-9ccb-443afae1b53c)
+![coseno](https://github.com/user-attachments/assets/b2253059-c222-402b-a974-ba40ca2b0f22)
+
