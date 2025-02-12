@@ -84,17 +84,6 @@ Gráficar los datos del archivo txt (en este caso llamado "tabla.txt")
 plot "tabla.txt"
 ```
 
-## Gráficas creadas con un dominio (-3,3) y un paso de 0.05
-
-### Seno
-![seno](https://github.com/user-attachments/assets/a241b61b-0a4d-4aec-9ccb-443afae1b53c)
-
-### Coseno
-![coseno](https://github.com/user-attachments/assets/b2253059-c222-402b-a974-ba40ca2b0f22)
-
-### Tangente
-![tangente](https://github.com/user-attachments/assets/fe354ec9-3366-4d55-ba1f-0c95df170c3f)
-
 Debido a que tenemos más de una columna (seno, coseno, tangente), debemos seleccionar la grafica deseada:
 
 - Seno
@@ -111,6 +100,17 @@ plot "tabla.txt" using 1:3
 ```
 plot "tabla.txt" using 1:4
 ```
+
+## Gráficas creadas con un dominio (-3,3) y un paso de 0.05
+
+### Seno
+![seno](https://github.com/user-attachments/assets/a241b61b-0a4d-4aec-9ccb-443afae1b53c)
+
+### Coseno
+![coseno](https://github.com/user-attachments/assets/b2253059-c222-402b-a974-ba40ca2b0f22)
+
+### Tangente
+![tangente](https://github.com/user-attachments/assets/fe354ec9-3366-4d55-ba1f-0c95df170c3f)
 
 Comandos adicionales para preferencia de graficación:
 - Unir los puntos con lineas
