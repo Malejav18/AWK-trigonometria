@@ -57,6 +57,19 @@ En este caso el comando utilizado es:
 awk -f trigonometria.awk -- limiteInferior limiteSuperior paso
 ```
 
+## Ejemplo:
+
+```
+awk -f trigonometria.awk -- -3 3 0.05
+```
+
+### Tabla de resultados
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/2c2e9157-0847-4fad-9636-ff64ade78aed" />
+
+### Gráfica seno
+<img width="1176" alt="image" src="https://github.com/user-attachments/assets/bd1f414d-1d69-4905-a0bc-e371624e2992" />
+
+
 ### Creación de gráfica por medio de GNUPlot
 
 Abrir GNUPlot
